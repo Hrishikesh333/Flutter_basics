@@ -13,27 +13,27 @@ class _Home_WorkState extends State<Home_Work> {
     return Scaffold(
       body: Center(
         child: Container(
-          height: 200,
-          width: 200,
+          height: 400,
+          width: 400,
           child: Center(
               child: Container(
-            width: 100,
-            height: 100,
+            width: 300,
+            height: 300,
             child: Center(
                 child: Container(
-              height: 50,
-              width: 50,
+              height: 200,
+              width: 200,
               child: Center(
                   child: Container(
                 height: 20,
                 width: 20,
                 decoration: BoxDecoration(color: Colors.red),
               )),
-              decoration: BoxDecoration(color: Colors.green),
+              decoration: BoxDecoration(color: Colors.green,borderRadius: BorderRadius.circular(50)),
             )),
             decoration: BoxDecoration(color: Colors.orange),
           )),
-          decoration: BoxDecoration(color: Colors.blue),
+          decoration: BoxDecoration(color: Colors.blue,borderRadius: BorderRadius.circular(200)),
         ),
       ),
     );
